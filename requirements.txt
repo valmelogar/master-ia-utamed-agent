@@ -1,0 +1,53 @@
+# ==============================================================================
+# Dependencias recomendadas — Máster en Inteligencia Artificial (UTAMED)
+# ==============================================================================
+# Instalación:
+#   pip install -r requirements.txt
+# ==============================================================================
+
+# --- Lectura y extracción de texto del temario local (PDF, DOCX, PPTX) ---
+pypdf>=4.0.0
+pymupdf>=1.24.0
+python-docx>=1.1.0
+python-pptx>=0.6.23
+
+# --- Matemáticas, Estadística y Data Science ---
+numpy>=1.26.0
+pandas>=2.2.0
+scipy>=1.12.0
+sympy>=1.12
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# --- Machine Learning ---
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+
+# --- Entorno interactivo y Notebooks ---
+jupyter>=1.0.0
+ipykernel>=6.29.0
+
+# --- Utilidades generales ---
+python-dotenv>=1.0.1
+requests>=2.31.0
+
+# ==============================================================================
+# DEPENDENCIAS OPCIONALES (Descomentar según la asignatura o práctica)
+# ==============================================================================
+
+# --- Deep Learning (se recomienda instalar PyTorch según tu CPU/GPU en pytorch.org) ---
+# torch>=2.2.0
+# torchvision>=0.17.0
+# tensorflow>=2.16.0
+
+# --- Procesamiento del Lenguaje Natural (PLN) ---
+# nltk>=3.8.1
+# spacy>=3.7.0
+# transformers>=4.40.0
+# datasets>=2.19.0
+
+# --- Agentes Inteligentes y APIs de LLMs ---
+# google-genai>=1.0.0
+# openai>=1.30.0
+# langgraph>=0.2.0
+# networkx>=3.3

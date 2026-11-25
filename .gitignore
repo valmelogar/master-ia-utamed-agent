@@ -1,0 +1,25 @@
+# Python y Entornos Virtuales
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Archivos protegidos del temario (ignora cualquier archivo dentro de temario/)
+temario/**/*
+!temario/**/
+!temario/**/.gitkeep
+
+# Mantener la estructura de carpetas
+!temario/**/.gitkeep
+!.agent/**/.gitkeep
+
+# Variables de entorno y credenciales
+.env
+*.pem
+.DS_Store
+Thumbs.db
